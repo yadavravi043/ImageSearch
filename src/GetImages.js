@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import Article from "./Article"
 export default function GetImages() {
   const [images, setImages] = useState([])
-  const [searchValue, setSearchValue] = useState('developer')
+  const [searchValue, setSearchValue] = useState()
 
   useEffect(() => {
     const fetchImages = async () => {
